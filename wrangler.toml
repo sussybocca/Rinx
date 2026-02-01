@@ -3,6 +3,12 @@ name = "ai-worker"
 main = "worker.js"
 compatibility_date = "2024-01-01"
 
+# Observability settings
+[observability]
+[observability.logs]
+enabled = false
+invocation_logs = true
+
 [[kv_namespaces]]
 binding = "AI_STORAGE"
 id = "105b05f3f77e4dbfa219b08fa772ac10"
