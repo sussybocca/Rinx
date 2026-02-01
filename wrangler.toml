@@ -1,5 +1,5 @@
 # wrangler.toml - Minimal Configuration
-name = "ai-worker"
+name = "rinx"
 main = "worker.js"
 compatibility_date = "2024-01-01"
 
