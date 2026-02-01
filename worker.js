@@ -542,7 +542,9 @@ class QuantumCodeGenerator {
         this.patterns = this.loadPatterns();
         this.cache = new Map();
     }
-
+getEventDrivenTemplate() {
+    return `// Event-Driven Architecture Template placeholder`;
+}
     loadTemplates() {
         return {
             microservices: this.getMicroserviceTemplate(),
